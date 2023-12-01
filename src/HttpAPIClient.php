@@ -12,7 +12,7 @@ use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;
 
-abstract class APIClient implements RequestFactoryInterface, ClientInterface
+abstract class HttpAPIClient implements RequestFactoryInterface, ClientInterface
 {
     /**
      * @param string $url
